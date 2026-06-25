@@ -1,0 +1,13 @@
+version: 2
+
+# EXAMPLE tests on the placeholder model — shows the pattern, nothing more.
+# We expect you to write meaningful tests on your own models.
+
+models:
+  - name: stg_customers_example
+    description: "Placeholder example model. Replace with your own staging models."
+    columns:
+      - name: customer_id
+        description: "Customer identifier."
+        tests:
+          - not_null
