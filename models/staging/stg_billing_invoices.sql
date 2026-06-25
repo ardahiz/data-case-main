@@ -23,7 +23,7 @@ deduped as (
             ) as row_number
         from typed
     )
-    where row_number = 1
+     where row_number = 1
 )
 
 select
