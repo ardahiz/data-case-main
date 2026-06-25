@@ -11,7 +11,7 @@ cleaned as (
             when upper(trim(region)) = 'DACH' then 'DACH'
             when upper(trim(region)) in ('DE', 'GERMANY') then 'DE'
             when upper(trim(region)) = 'CH' then 'CH'
-            when upper(trim(region)) = 'AT' then 'AT'
+            when upper(trim(region)) = 'AT' then 'AT' 
             else 'Other'
         end as region,
         case
